@@ -1,0 +1,30 @@
+.data-grid-container
+    position: relative
+    margin-bottom: 20px
+    display: grid
+    grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr))
+    grid-gap: 1.5rem
+.card
+    padding: 10px
+    display: flex
+    flex-direction: column
+    align-items: center
+    grid-gap: 0.5rem
+    // background-image: linear-gradient(to right ,#C28A47 ,#F2D282)
+    border-radius: 5px
+    border: 1px solid #C28A47
+    img
+        max-width: 100%
+    .sale
+        color: #C28A47
+.terms
+    color: #6d6d6d
+.MuiInputLabel-animated
+    margin-top: 20px
+    font-size: 1rem !important
+    margin-left: 50% !important
+    transform: translate(-50%) !important
+    color: #252525 !important
+@media screen and (max-width:768px) 
+    .data-grid-container
+        width: 95%
