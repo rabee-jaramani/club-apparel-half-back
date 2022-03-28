@@ -6,7 +6,7 @@ export default function Card(props) {
     <div className="card container">
       {/* <div className="title">{props.brand}</div> */}
       <img src={props.logo} alt="logo" />
-      <div className="sale">Up To 50% Off</div>
+      {/* <div className="sale">Up To 50% Off</div> */}
 
       <FormControl fullWidth>
         <InputLabel id="demo-simple-select-label">Stores</InputLabel>
