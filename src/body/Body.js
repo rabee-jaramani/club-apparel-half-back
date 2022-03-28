@@ -9,7 +9,12 @@ export default function Body() {
       <div className="title">{/* <h2>CA HALF BACK LIST</h2> */}</div>
       <div className="data-grid-container center-it">
         {data_list.map((item) => (
-          <Card brand={item.brand} logo={item.logo} stores={item.stores} />
+          <Card
+            key={item.id}
+            brand={item.brand}
+            logo={item.logo}
+            stores={item.stores}
+          />
         ))}
       </div>
     </div>

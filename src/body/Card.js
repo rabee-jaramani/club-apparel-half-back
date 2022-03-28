@@ -13,7 +13,7 @@ export default function Card(props) {
         <Select
           labelId="demo-simple-select-label"
           id="demo-simple-select"
-          value="value"
+          // value={props.stores[0]}
           label="Stores"
           // onChange={handleChange}
         >

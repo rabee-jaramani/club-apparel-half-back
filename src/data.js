@@ -25,6 +25,8 @@ import spring from './body/logos/spring.png';
 import ath from './body/logos/ath.png';
 import tcp from './body/logos/tcp.png';
 import toms from './body/logos/toms.png';
+import xim from './body/logos/xim.png';
+import cool from './body/logos/cool.png';
 
 export const data_list = [
   {
@@ -94,12 +96,12 @@ export const data_list = [
     logo: ccc,
     stores: ['GULF MALL'],
   },
-  // {
-  //   id: 9,
-  //   brand: 'CL - COOL CLUB',
-  //   logo: xxx,
-  //   stores: ['DOHA FESTIVAL CITY'],
-  // },
+  {
+    id: 9,
+    brand: 'CL - COOL CLUB',
+    logo: cool,
+    stores: ['DOHA FESTIVAL CITY'],
+  },
   {
     id: 10,
     brand: 'CR - CROCS',
@@ -188,7 +190,7 @@ export const data_list = [
       'MALL OF QATAR',
       'EZDAN MALL',
       'DOHA FESTIVAL CITY',
-      'HAYATT PLAZA',
+      'HYATT PLAZA',
     ],
   },
   {
@@ -254,12 +256,7 @@ export const data_list = [
     id: 27,
     brand: 'TAF - Atheletes co.',
     logo: ath,
-    stores: [
-      'MALL OF QATAR',
-      'GULF MALL',
-      'DOHA FESTIVAL CITY',
-      'HAYATT PLAZA',
-    ],
+    stores: ['MALL OF QATAR', 'GULF MALL', 'DOHA FESTIVAL CITY', 'HYATT PLAZA'],
   },
 
   {
@@ -274,17 +271,17 @@ export const data_list = [
     logo: toms,
     stores: ['DOHA FESTIVAL CITY'],
   },
-  // {
-  //   id: 30,
-  //   brand: 'XV - XIMIVOGUE ',
-  //   logo: xv,
-  //   stores: [
-  //     'MALL OF QATAR',
-  //     'DAR AL SALAM MALL',
-  //     'DOHA CITY CENTRE',
-  //     'DOHA FESTIVAL CITY',
-  //     'EZDAN MALL AL WAKRAH',
-  //     'LANDMARK MALL',
-  //   ],
-  // },
+  {
+    id: 30,
+    brand: 'XV - XIMIVOGUE ',
+    logo: xim,
+    stores: [
+      'MALL OF QATAR',
+      'DAR AL SALAM MALL',
+      'DOHA CITY CENTRE',
+      'DOHA FESTIVAL CITY',
+      'EZDAN MALL AL WAKRAH',
+      'LANDMARK MALL',
+    ],
+  },
 ];
