@@ -5,7 +5,7 @@ export default function Footer() {
     <div className="footer">
       <div class="contact">
         <a
-          href="http://clubapparel.com/about.html"
+          href="https://clubapparel.com/about.html"
           target="_blank"
           class="text-black"
           rel="noreferrer"
@@ -14,7 +14,7 @@ export default function Footer() {
         </a>{' '}
         &nbsp;&nbsp;&nbsp;&nbsp;
         <a
-          href="http://clubapparel.com/terms&amp;conditions.html"
+          href="https://clubapparel.com/terms&amp;conditions.html"
           target="_blank"
           class="text-black"
           rel="noreferrer"
@@ -23,7 +23,7 @@ export default function Footer() {
         </a>{' '}
         &nbsp;&nbsp;&nbsp;&nbsp;
         <a
-          href="http://clubapparel.com/contact.html"
+          href="https://clubapparel.com/contact.html"
           target="_blank"
           class="text-black"
           rel="noreferrer"
@@ -49,7 +49,7 @@ export default function Footer() {
         </a>
 
         <a
-          href="http://instagram.com/clubapparel"
+          href="https://instagram.com/clubapparel"
           target="_blank"
           rel="noreferrer"
         >
