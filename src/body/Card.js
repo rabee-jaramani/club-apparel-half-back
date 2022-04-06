@@ -1,7 +1,9 @@
 import { FormControl, InputLabel, MenuItem, Select } from '@material-ui/core';
-import React from 'react';
+import React, { useState } from 'react';
 
 export default function Card(props) {
+  // eslint-disable-next-line no-unused-vars
+  const [value, setValue] = useState('');
   return (
     <div className="card container">
       {/* <div className="title">{props.brand}</div> */}
@@ -13,7 +15,7 @@ export default function Card(props) {
         <Select
           labelId="demo-simple-select-label"
           id="demo-simple-select"
-          // value={props.stores[0]}
+          value={value}
           label="Stores"
           // onChange={handleChange}
         >
